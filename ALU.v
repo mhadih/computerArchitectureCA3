@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-module ALU(ri, rj, func, out, zero);
+module ALU(ri, rj, func, out);
   parameter n;
   input [n-1:0] ri,rj;
   input [1:0] func;
@@ -11,8 +11,6 @@ module ALU(ri, rj, func, out, zero);
             (func == 3'b10)? ri & rj:
             (func == 3'b11)? ~ri:
                 3'bz;
-              
-  assign zero = (ri - rj == 16'b0)? 0:1; 
-   
+
 endmodule
 
