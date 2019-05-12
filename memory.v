@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module memory(input [9:0] adr,input [15:0] data,input memwen,clk,output [15:0] resMem);
+module Memory(input [4:0] adr,input [7:0] data,input memwen,clk,output [7:0] resMem);
   reg [8:0] m [0:31];
   integer i;
   
