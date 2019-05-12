@@ -7,7 +7,7 @@ module DataPath(input clk,rst,
                 output[4:0] addrs);
 
 wire[4:0] PCin,pcOut,memAddrs;
-wire[7:0] IR, resMem, pcExt, Ain, Bin, resALU, resALUReg, zero;
+wire[7:0] resMem, pcExt, Ain, Bin, resALU, resALUReg, zero;
 wire ldPC;
 
 assign ldPC = (&{zero}&pcWriteCond)|pcWrite;

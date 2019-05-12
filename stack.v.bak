@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module Stack(input [7:0] dataIn,input clk,push,pop,tos, output reg[7:0] resStk);
+module Stack(input [7:0] dataIn,input clk,push,pop,tos, output [7:0] resStk);
   reg [8:0] stk[0:31];
   reg [4:0] topPntr;
 
