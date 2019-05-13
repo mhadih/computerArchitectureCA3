@@ -1,13 +1,13 @@
 `timescale 1ns/1ns
 module Stack(input [7:0] dataIn,input clk,push,pop,tos, output reg[7:0] resStk);
-  reg [8:0] stk[0:31];
+  reg [7:0] stk[0:31];
   reg [4:0] topPntr;
 
   integer i;
   initial begin
     topPntr = 5'b0;
-    for (i=0; i<=1023;i=i+1) 
-      stk[i] = 16'b0;
+    for (i=0; i<=31;i=i+1) 
+      stk[i] =8'b0;
   end
 
   always @(posedge clk) begin
