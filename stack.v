@@ -16,6 +16,7 @@ module Stack(input [7:0] dataIn,input clk,push,pop,tos, output reg[7:0] resStk);
     else if (pop) begin
         topPntr = topPntr - 1;
         resStk = stk[topPntr];
+        stk[topPntr] <= 8'b0;
     end
     else if (push) begin
         stk[topPntr] <= dataIn;
