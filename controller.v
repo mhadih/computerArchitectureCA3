@@ -11,7 +11,7 @@ module Controller(input clk,rst
     always @(ps) begin
         case (ps)
             0 : ns <= 1;  
-            1 : ns <= (opcode==7)?2:(opcode==6)?3:(opcode==4)?4:6;
+            1 : ns <= (opcode==6)?2:(opcode==7)?3:(opcode==4)?4:6;
             2 : ns <= 0;
             3 : ns <= 0;
             4 : ns <= 5;

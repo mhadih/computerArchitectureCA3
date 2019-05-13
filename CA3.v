@@ -29,7 +29,7 @@ endmodule
       rst = 1;
       #50 
       rst = 0;
-      #10000
+      #20000
       $stop;
     end
 
