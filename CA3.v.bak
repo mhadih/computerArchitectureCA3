@@ -24,10 +24,10 @@ endmodule
     module TB();
     reg clk=0,rst;
     CA3 g(clk,rst);
-    always #20 clk=~clk;
+    always #100 clk=~clk;
     initial begin
       rst = 1;
-      #10 
+      #100 
       rst = 0;
       #10000
       $stop;

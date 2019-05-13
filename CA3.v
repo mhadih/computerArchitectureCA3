@@ -27,7 +27,7 @@ endmodule
     always #100 clk=~clk;
     initial begin
       rst = 1;
-      #100 
+      #50 
       rst = 0;
       #10000
       $stop;

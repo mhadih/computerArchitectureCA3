@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module Memory(input [4:0] adr,input [7:0] data,input memwen,memRead,clk,output reg [7:0] resMem);
+module Memory(input [4:0] adr,input [7:0] data,input memwen,memRead,clk,output [7:0] resMem);
   reg [8:0] m [0:31];
   integer i;
   
@@ -33,7 +33,7 @@ module Memory(input [4:0] adr,input [7:0] data,input memwen,memRead,clk,output r
     if(memwen) begin
       m[adr] <= data;
     end
-    else if (memRead) resMem <= m[adr];
   end
+    assign resMem = (memRead) ? m[adr]:8'bz;
   // assign resMem = m[adr];
 endmodule
