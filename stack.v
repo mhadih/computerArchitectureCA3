@@ -14,12 +14,12 @@ module Stack(input [7:0] dataIn,input clk,push,pop,tos, output reg[7:0] resStk);
     if (tos) 
       resStk <= stk[topPntr];
     else if (pop) begin
-        topPntr = topPntr - 1;
         resStk <= stk[topPntr];
+        topPntr <= topPntr - 1;
     end
     else if (push) begin
-        resStk <= dataIn;
-        topPntr = topPntr + 1;
+        stk[topPntr] <= dataIn;
+        topPntr <= topPntr + 1;
     end
   end
 endmodule
