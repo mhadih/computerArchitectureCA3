@@ -10,7 +10,7 @@ module DataPath(input clk,rst,
 wire[4:0] PCin,pcOut,memAddrs;
 wire[7:0] IR, resMem, pcExt, Ain, Bin, resALU, resALUReg, zero,readData,dataIn,MDR;
 wire ldPC;
-
+assign opcode = IR[7:5];
 assign ldPC = (&{zero}&pcWriteCond)|pcWrite;
 
 Register #(5) pc(.in(PCin), .clk(clk), .rst(rst), .load(ldPC), .out(pcOut));
