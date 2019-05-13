@@ -8,7 +8,7 @@ module DataPath(input clk,rst,
                 );
 
 wire[4:0] PCin,pcOut,memAddrs;
-wire[7:0] IR, resMem, pcExt, Ain, Bin, resALU, resALUReg, zero,readData,dataIn,MDR;
+wire[7:0] IR, resMem, pcExt, Ain, Bin, resALU, resALUReg, zero,readData,dataIn,MDR,resStk,resA,resB;
 wire ldPC;
 assign opcode = IR[7:5];
 assign ldPC = (&{zero}&pcWriteCond)|pcWrite;
@@ -25,7 +25,7 @@ Register #(8) MDRReg(.in(readData), .clk(clk), .rst(rst), .load(1'b1), .out(MDR)
 
 MUX #(8) stackIn(.in0(resALUReg), .in1(MDR), .sel(MtoS), .out(dataIn));
 
-Stack stack(.dataIn(dataIn), .push(push), .pop(pop), .tos(tos),.clk(clk));
+Stack stack(.dataIn(dataIn), .push(push), .pop(pop), .tos(tos),.clk(clk),.resStk(resStk));
 
 Register #(8) A(.in(resStk), .clk(clk), .rst(rst), .load(ldA), .out(resA));
 

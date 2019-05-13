@@ -12,10 +12,10 @@ module Stack(input [7:0] dataIn,input clk,push,pop,tos, output reg[7:0] resStk);
 
   always @(posedge clk) begin
     if (tos) 
-      resStk <= stk[topPntr];
+      resStk <= stk[topPntr - 1 ];
     else if (pop) begin
-        resStk <= stk[topPntr];
-        topPntr <= topPntr - 1;
+        topPntr = topPntr - 1;
+        resStk = stk[topPntr];
     end
     else if (push) begin
         stk[topPntr] <= dataIn;
