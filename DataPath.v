@@ -25,7 +25,7 @@ Register #(8) MDRReg(.in(readData), .clk(clk), .rst(rst), .load(1'b1), .out(MDR)
 
 MUX #(8) stackIn(.in0(resALUReg), .in1(MDR), .sel(MtoS), .out(dataIn));
 
-Stack stack(.dataIn(dataIn), .push(push), .pop(pop), .tos(tos));
+Stack stack(.dataIn(dataIn), .push(push), .pop(pop), .tos(tos),.clk(clk));
 
 Register #(8) A(.in(resStk), .clk(clk), .rst(rst), .load(ldA), .out(resA));
 
