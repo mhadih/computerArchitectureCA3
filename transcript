@@ -2584,3 +2584,26 @@ sim:/TB/g/dataPath/memory/m
 restart
 run -all
 # Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of Register.v was successful.
+# Compile of stack.v was successful.
+# Compile of zeroExtend.v was successful.
+# Compile of CA3.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart
+# Loading work.TB
+# Loading work.CA3
+# Loading work.DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Stack
+# Loading work.zeroExtend
+# Loading work.ALU
+# Loading work.Controller
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
