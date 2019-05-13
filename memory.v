@@ -21,6 +21,12 @@ module Memory(input [4:0] adr,input [7:0] data,input memwen,memRead,clk,output r
 		m[18] = 8'b01100000;	// not 01000100 and store 10111011 on St
 		m[19] = 8'b10111111;	// pop 10111011 from st and store it on m[31]
 		m[20] = 8'b10111110;	// pop 0 from st and store it on m[30]
+
+    m[27] = 8'b01100110;
+		m[28] = 8'b10101010;
+		m[29] = 8'b00001000;
+		m[30] = 8'b00010000;
+
   end
 
   always @(posedge clk) begin

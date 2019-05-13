@@ -5,7 +5,7 @@ module Register( in,  clk, rst, load, out);
     input clk,rst,load;
     output reg [n-1:0] out;
     always @(posedge clk,posedge rst) begin
-        if (rst) out <= (n)*1'b0;
+        if (rst) out <= (n)1'b0;
         else if (load) out <= in;
     end
 endmodule

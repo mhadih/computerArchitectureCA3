@@ -351,3 +351,703 @@ restart
 #         Region: /TB/g/dataPath/BMUX
 run -all
 # Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of DataPath.v was successful.
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of Register.v was successful.
+# Compile of stack.v was successful.
+# Compile of zeroExtend.v was successful.
+# Compile of CA3.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart
+# Loading work.TB
+# Loading work.CA3
+# Loading work.DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Stack
+# Loading work.zeroExtend
+# Loading work.ALU
+# Loading work.Controller
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(16): [PCDPC] - Port size (8 or 8) does not match connection size (5) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/pc
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(16): [PCDPC] - Port size (8 or 8) does not match connection size (5) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/pc
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(18): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/PCMux
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/pc/rst \
+sim:/TB/g/dataPath/pc/out \
+sim:/TB/g/dataPath/pc/load \
+sim:/TB/g/dataPath/pc/in \
+sim:/TB/g/dataPath/pc/clk
+restart
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(16): [PCDPC] - Port size (8 or 8) does not match connection size (5) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/pc
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(16): [PCDPC] - Port size (8 or 8) does not match connection size (5) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/pc
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(18): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/PCMux
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of stack.v was successful.
+# Compile of zeroExtend.v was successful.
+# Compile of CA3.v was successful.
+# 9 compiles, 1 failed with 1 error. 
+# Compile of memory.v was successful.
+# Compile of Register.v failed with 1 errors.
+# Compile of Register.v was successful.
+restart
+# Loading work.TB
+# Loading work.CA3
+# Loading work.DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Stack
+# Loading work.zeroExtend
+# Loading work.ALU
+# Loading work.Controller
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(18): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/PCMux
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/PCMux/out \
+sim:/TB/g/dataPath/PCMux/in1 \
+sim:/TB/g/dataPath/PCMux/in0
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/memory/resMem \
+sim:/TB/g/dataPath/memory/memRead \
+sim:/TB/g/dataPath/memory/adr
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/stack/dataIn
+restart
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(18): [PCDPC] - Port size (5 or 5) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/PCMux
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of DataPath.v was successful.
+restart
+# Loading work.DataPath
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of DataPath.v was successful.
+restart
+# Loading work.DataPath
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'resMem'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(22): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/IRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# WARNING: No extended dataflow license exists
+# Compile of DataPath.v was successful.
+restart
+# Loading work.DataPath
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'dataIn'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/stack.v(2).
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/stackIn/sel \
+sim:/TB/g/dataPath/stackIn/in1 \
+sim:/TB/g/dataPath/stackIn/in0
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/stack/dataIn
+# Compile of DataPath.v was successful.
+restart
+# Loading work.DataPath
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(24): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/MDRReg
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(26): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in1'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/stackIn
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of DataPath.v was successful.
+restart
+# Loading work.DataPath
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of Register.v was successful.
+# Compile of stack.v was successful.
+# Compile of zeroExtend.v was successful.
+# Compile of CA3.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart
+# Loading work.TB
+# Loading work.CA3
+# Loading work.DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Stack
+# Loading work.zeroExtend
+# Loading work.ALU
+# Loading work.Controller
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/MDRReg/rst
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/MDRReg/out
+restart
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
+add wave -position insertpoint  \
+sim:/TB/g/dataPath/MDRReg/out \
+sim:/TB/g/dataPath/MDRReg/in
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of memory.v was successful.
+# Compile of MUX.v was successful.
+# Compile of Register.v was successful.
+# Compile of stack.v was successful.
+# Compile of zeroExtend.v was successful.
+# Compile of CA3.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart
+# Loading work.TB
+# Loading work.CA3
+# Loading work.DataPath
+# Loading work.Register
+# Loading work.MUX
+# Loading work.Memory
+# Loading work.Stack
+# Loading work.zeroExtend
+# Loading work.ALU
+# Loading work.Controller
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(20): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'data'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/memory.v(2).
+# 
+#         Region: /TB/g/dataPath/memory
+# ** Warning: (vsim-3017) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Too few port connections. Expected 6, found 4.
+# 
+#         Region: /TB/g/dataPath/stack
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'clk'.
+# 
+# ** Warning: (vsim-3722) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(28): [TFMPC] - Missing connection for port 'resStk'.
+# 
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(30): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/A
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(32): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'out'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/B
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(34): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/Register.v(2).
+# 
+#         Region: /TB/g/dataPath/Z
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(38): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/AMUX
+# ** Warning: (vsim-3015) D:/simulation/CA/ca3/computerArchitectureCA3/DataPath.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'in0'. The port definition is at: D:/simulation/CA/ca3/computerArchitectureCA3/MUX.v(2).
+# 
+#         Region: /TB/g/dataPath/BMUX
+run -all
+# Break in Module TB at D:/simulation/CA/ca3/computerArchitectureCA3/CA3.v line 33
