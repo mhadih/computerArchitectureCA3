@@ -13,7 +13,7 @@ wire ldPC;
 
 assign ldPC = (&{zero}&pcWriteCond)|pcWrite;
 
-Register pc(.in(PCin), .clk(clk), .rst(rst), .load(ldPC), .pcOut(pcOut));
+Register pc(.in(PCin), .clk(clk), .rst(rst), .load(ldPC), .out(pcOut));
 
 MUX #(5) PCMux(.in0(resPC), .in1(IR[4:0]), .sel(IorD), .out(memAddrs));
 
